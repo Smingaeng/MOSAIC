@@ -92,10 +92,8 @@ encoder/config/modelconf/mosaic.yml
 
 ## Acknowledgement
 
-For fair comparison and reproducibility, we reuse parts of the IRLLRec and RLMRec codebases, including training/evaluation routines and related utilities.
+For fair comparison and reproducibility, we reuse parts of the IRLLRec codebases, including training/evaluation routines and related utilities.
 
-We also adapt LLM-based user/item profiling and semantic embedding pipeline components.
+Many thanks to the authors of the following repository for providing useful training frameworks and open-source resource:
 
-Many thanks to the authors of the following repository for providing useful training frameworks and open-source resources:
-
-- IRLLRec
+> [IRLLRec](https://github.com/wangyu0627/IRLLRec)
