@@ -1,0 +1,89 @@
+optimizer:
+  name: adam
+  lr: 1.0e-3
+  weight_decay: 0
+
+train:
+  epoch: 3000
+  batch_size: 4096
+  save_model: true
+  loss: pairwise
+  test_step: 3
+  reproducible: true
+  seed: 2023
+  patience: 8
+  show_progress: true
+
+test:
+  metrics: [recall, ndcg]
+  k: [5, 10, 20]
+  batch_size: 1024
+
+data:
+  type: general_cf
+  name: amazon_book
+
+model:
+  # CoMoE lower-cases model.name before import. Keep this value lower-case.
+  # On a case-sensitive filesystem, also place the python file as graphmoe.py
+  # or use the compatibility copy included with this patch.
+  name: graphmoe
+
+  # Base recommender settings
+  keep_rate: 0.8
+  embedding_size: 64
+  layer_num: 3
+  reg_weight: 1.0e-6
+
+  # Sparse Graph-MoE router adapted from Graph-Mixture-of-Experts.
+  num_experts: 4
+  top_k: 2
+  noisy_gating: true
+  gate_init: xavier       # xavier is more stable for recommendation than the original zero gate.
+  balance_loss_weight: 1.0e-2
+
+  # Expert layout. The first num_experts_1hop experts use one-hop propagation;
+  # remaining experts use two-hop propagation by applying the normalized adjacency twice.
+  num_experts_1hop: 2
+  expert_linear: true
+  expert_batchnorm: true
+  expert_l2norm: false
+  combine: sum            # set to legacy_mean to mimic the original repo's mean-over-experts scaling.
+
+  # Layer output controls.
+  dropout: 0.0
+  residual: false
+  activation: relu        # {relu, leaky_relu, gelu, none}
+  last_layer_activation: false
+  jk: sum                 # {sum, mean, last}; sum is closest to LightGCN layer aggregation.
+
+  # Optional CoMoE trainer logging hook.
+  log_expert_usage: true
+  expert_usage_scope: all_nodes
+
+  amazon_book:
+    embedding_size: 64
+    layer_num: 3
+    reg_weight: 1.0e-6
+    num_experts: 4
+    top_k: 2
+    num_experts_1hop: 2
+    balance_loss_weight: 1.0e-2
+
+  yelp:
+    embedding_size: 64
+    layer_num: 3
+    reg_weight: 1.0e-6
+    num_experts: 6
+    top_k: 2
+    num_experts_1hop: 3
+    balance_loss_weight: 1.0e-2
+
+  amazon_movie:
+    embedding_size: 64
+    layer_num: 3
+    reg_weight: 1.0e-6
+    num_experts: 4
+    top_k: 2
+    num_experts_1hop: 2
+    balance_loss_weight: 1.0e-2
