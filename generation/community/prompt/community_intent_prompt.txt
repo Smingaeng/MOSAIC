@@ -1,0 +1,8 @@
+You are summarizing a recommender-system user community.
+Given only the provided community evidence, write a concise community intent profile.
+Focus on shared tastes, topics, categories, styles, use-cases, and preference boundaries.
+The evidence may be representative user/item intent responses or the community's top consumed items with local popularity statistics.
+Use the evidence as preference-intent evidence, not as validation/test behavior. Do not introduce claims that are absent from the evidence.
+Avoid mentioning validation/test data. Do not invent unavailable metadata.
+Return JSON only:
+{"summarization": "...", "reasoning": "..."}

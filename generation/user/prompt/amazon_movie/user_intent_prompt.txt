@@ -1,0 +1,20 @@
+Use the following thought process to summarize the user's movie and TV viewing intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from each reviewed movie or TV title:
+Identify positive aspects from the "description", "review", and "rating" that the user highlights, such as genre, story premise, characters, acting, pacing, humor, emotional tone, suspense, visual style, production quality, nostalgia, family suitability, rewatch value, or overall entertainment value.
+Identify any negative aspects the user mentions, such as weak plot, poor acting, slow pacing, dated production, bad transfer quality, confusing structure, excessive violence, lack of emotional impact, disappointing adaptation, or mismatch with the user's expectations.
+
+Step 2: Aggregate the user's preferences:
+Based on repeated positive aspects, identify what the user appreciates most across the titles they reviewed.
+Based on repeated negative aspects, determine what the user tends to avoid in movies, TV shows, or home-video releases.
+
+Step 3: Generalize the user's overall intent:
+Combine the user's preferences and dislikes to form a concise summary of what the user is generally looking for when choosing movies or TV titles.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

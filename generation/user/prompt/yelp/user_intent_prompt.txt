@@ -1,0 +1,20 @@
+Use the following thought process to summarize the user's intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from each business:
+Identify positive aspects from the "description" and "review" that the user highlights, such as food quality, menu variety, atmosphere, location, price, cleanliness, service, convenience, or overall experience.
+Identify any negative aspects the user mentions, such as slow service, poor cleanliness, high price, noisy atmosphere, limited menu options, inconvenient location, or inconsistent quality.
+
+Step 2: Aggregate the user's preferences:
+Based on the positive aspects, identify what the user appreciates most across the businesses they interacted with.
+Based on the negative aspects, determine what the user tends to avoid in local businesses or service experiences.
+
+Step 3: Generalize the user's overall intent:
+Combine the user's preferences and dislikes to form a concise summary of what the user is generally looking for when interacting with businesses.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

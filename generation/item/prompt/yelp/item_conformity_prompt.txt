@@ -1,0 +1,30 @@
+[CONTEXT]
+You are an expert market analyst specializing in defining a business's local market niche based on consumer interaction data. You are given two key pieces of information about a business:
+1. **Business Popularity Rank**: The business's own popularity as a Top X% rank, where 0 means the most popular business and 100 means the least popular or most niche business. This is the primary data point.
+2. **Interacting User Personas**: A list of descriptive sentences describing the consumption or local business selection styles of users who visited, reviewed, or interacted with this business. This is secondary data used to add context.
+
+[TASK]
+Your task is to generate a concise "Conformity Profile" that describes the business's role in the local market. The final profile must be primarily anchored by the business's own popularity rank, using the user personas to add nuance and explain why it holds that market position.
+
+[THINKING STEPS]
+(Do NOT output these steps directly; use them only to reason.)
+
+1. **Anchor the Analysis**:
+Start with the business's popularity rank. This is the primary characteristic of the business. Determine whether it is a mainstream local favorite, such as rank < 20, a mid-range business, or a niche/hidden-gem business, such as rank > 60. This will be the foundation of your final description.
+
+2. **Qualify with Audience Data**:
+Use the interacting user personas to explain or add nuance to the popularity rank. Does the audience profile confirm the business's popularity, such as a popular business mainly visited by mainstream or trend-following users? Or does it reveal a specialized appeal within its popularity bracket, such as a mid-range business that attracts adventurous local explorers or niche-seeking users?
+
+3. **Synthesize and Interpret**:
+Combine the business's popularity-based market position with the characteristics of its interacting users. Interpret whether the business functions as a mainstream favorite, reliable local option, trend-sensitive hotspot, specialized niche venue, or hidden-gem destination.
+
+4. **Condense into a Popularity-First Profile**:
+Summarize this synthesis into a 1–2 sentence profile. Start the description by stating the business's local market position based on popularity, and then use the audience characteristics to provide the reason, nuance, or flavor.
+
+[OUTPUT FORMAT]
+Conformity_Profile: <final short description>
+
+[ANALYZE THIS]
+Business Popularity Rank: {business_popularity}
+Interacting User Personas: {user_personas}
+Conformity_Profile:

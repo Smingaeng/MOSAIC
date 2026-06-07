@@ -1,0 +1,20 @@
+Use the following thought process to summarize the business's intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from the business:
+From the provided BASIC INFORMATION and USER FEEDBACK, identify specific compliments, themes, or strengths mentioned about the business. These may include business category, cuisine type, menu quality, service, atmosphere, price, location, cleanliness, convenience, popularity, or suitability for certain occasions.
+If BASIC INFORMATION is null, rely only on the available business name, categories, and user feedback. Do not invent unsupported details.
+
+Step 2: Derive user preferences and dislikes:
+Preferences: From the positive attributes, determine what aspects customers are likely to value most. This could include high-quality food, friendly service, cozy atmosphere, affordable prices, convenient location, unique menu, family-friendly setting, nightlife, or relaxing experiences.
+Dislikes: Note anything that might deter certain customers, such as slow service, high prices, crowded or noisy atmosphere, limited options, poor cleanliness, inconsistent quality, or a business category that may only appeal to specific users.
+
+Step 3: Summarize the business’s intent and audience:
+Intent: Define who would enjoy this business and who would dislike it based on their preferences and dislikes. Also state the business’s main appeal or promise, such as providing a casual dining experience, offering high-quality specialty food, creating a relaxing cafe atmosphere, delivering convenient local services, or serving as a lively place for social gatherings.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

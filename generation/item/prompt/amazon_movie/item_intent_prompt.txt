@@ -1,0 +1,20 @@
+Use the following thought process to summarize the movie or TV title's intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from the title:
+From the provided BASIC INFORMATION and USER FEEDBACK, identify specific compliments, themes, or strengths mentioned by viewers. These may include genre, premise, story, characters, acting, direction, pacing, humor, suspense, emotional tone, visual style, production quality, nostalgia, family appeal, collector value, transfer quality, or rewatch value.
+If BASIC INFORMATION is sparse or only contains an item id, rely on the viewer comments and ratings when available. Do not invent unsupported details such as cast, director, release year, or genre.
+
+Step 2: Derive viewer preferences and dislikes:
+Preferences: From the positive attributes, determine what types of viewers are likely to value the title most, such as viewers seeking light entertainment, family viewing, classic cinema, genre thrills, emotional drama, comedy, nostalgia, cult appeal, educational material, or serialized TV comfort.
+Dislikes: Note anything that might deter certain viewers, such as slow pacing, weak acting, dated visuals, poor DVD or transfer quality, niche subject matter, excessive melodrama, low production values, confusing story, or a polarizing tone.
+
+Step 3: Summarize the title's intent and audience:
+Intent: Define who would enjoy this movie or TV title and who would dislike it based on their preferences and dislikes. Also state the title's main appeal or promise, such as providing escapist entertainment, nostalgic comfort, family-friendly viewing, suspenseful genre satisfaction, emotional immersion, cultural interest, or a niche collector experience.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

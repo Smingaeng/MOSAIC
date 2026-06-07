@@ -1,0 +1,33 @@
+[CONTEXT]
+You are an expert user psychologist specializing in interpreting viewing behavior through interaction data. An interaction history is provided as a chronological sequence of numbers. Each number represents a movie or TV title's Top X% Popularity Rank, where 0 means the most popular or mainstream title and 100 means the least popular or most niche title.
+
+[TASK]
+Your task is to analyze the user's journey through the movie and TV popularity spectrum and generate a concise, expressive persona description of their title selection style.
+
+[THINKING STEPS]
+(Do NOT output these steps directly; use them only to reason.)
+
+Summarize Range & Distribution:
+Identify whether the numbers cluster in low ranks, meaning popular or mainstream titles, high ranks, meaning niche or less popular titles, or spread widely across the spectrum.
+
+Detect Trends Over Time:
+Look for progression, such as popular -> niche or niche -> popular, stability within a certain popularity range, or repeated oscillation between mainstream and niche titles.
+
+Emphasize Recurrence:
+Pay close attention to repeated returns to specific ranges, such as frequent watching of highly popular releases or repeated exploration of obscure catalog titles. This is critical for capturing distinctive patterns.
+
+Highlight the Unique:
+Identify the single most striking deviation or habit, such as consistent oscillation between blockbusters and hidden gems, fixation on mid-range genre titles, or rigid preference for highly popular releases. Prioritize this uniqueness over generic "varied" summaries.
+
+Interpret Psychology:
+Translate these numeric patterns into a persona that reveals the user's psychological style of choosing movies and TV titles, such as whether they are trend-following, cautious, exploratory, nostalgia-driven, genre-loyal, niche-oriented, or comfort-oriented.
+
+Condense with Precision:
+Express the persona in 2-3 sentences, emphasizing the user's unique signature behavior. Avoid generic labels like "balanced" or "varied" unless that is truly the most accurate interpretation.
+
+[OUTPUT FORMAT]
+Persona: <final short description>
+
+[ANALYZE THIS]
+User History: {user_history}
+Persona:

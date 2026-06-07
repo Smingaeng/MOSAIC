@@ -1,0 +1,20 @@
+Use the following thought process to summarize the user's reading intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from each reviewed book:
+Identify positive aspects from the "description", "review", and "rating" that the user highlights, such as genre, plot, characters, prose style, pacing, emotional tone, humor, world-building, themes, originality, readability, educational value, or overall satisfaction.
+Identify any negative aspects the user mentions, such as slow pacing, abrupt endings, shallow characters, predictable plot, confusing structure, weak writing, overly juvenile tone, dense prose, or mismatch with the user's expectations.
+
+Step 2: Aggregate the user's preferences:
+Based on repeated positive aspects, identify what the user appreciates most across the books they reviewed.
+Based on repeated negative aspects, determine what the user tends to avoid in reading experiences.
+
+Step 3: Generalize the user's overall intent:
+Combine the user's preferences and dislikes to form a concise summary of what the user is generally looking for when choosing books.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

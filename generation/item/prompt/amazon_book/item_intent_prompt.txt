@@ -1,0 +1,20 @@
+Use the following thought process to summarize the book's intent:
+
+### INTERNAL THOUGHT PROCESS
+(Use the following steps for your reasoning. Do NOT output these steps in your final answer.)
+
+Step 1: Extract key attributes from the book:
+From the provided BASIC INFORMATION and USER FEEDBACK, identify specific compliments, themes, or strengths mentioned by readers. These may include genre, subject matter, plot, characters, writing style, pacing, emotional tone, humor, world-building, literary quality, accessibility, originality, educational value, or reread value.
+If BASIC INFORMATION is sparse or only contains an item id, rely on the reader comments and ratings when available. Do not invent unsupported bibliographic details such as author, genre, or title.
+
+Step 2: Derive reader preferences and dislikes:
+Preferences: From the positive attributes, determine what types of readers are likely to value the book most, such as readers seeking character-driven fiction, fast-paced plots, thoughtful themes, comfort reading, literary prose, genre familiarity, emotional intensity, humor, or informative nonfiction.
+Dislikes: Note anything that might deter certain readers, such as slow pacing, abrupt endings, dense prose, juvenile tone, weak characterization, predictable plot, niche subject matter, or polarizing style.
+
+Step 3: Summarize the book's intent and audience:
+Intent: Define who would enjoy this book and who would dislike it based on their preferences and dislikes. Also state the book's main appeal or promise, such as providing escapist entertainment, emotional immersion, literary reflection, genre satisfaction, educational insight, or a niche reading experience.
+
+### CONSTRAINTS AND OUTPUT FORMAT
+- Your final output MUST be a single, continuous paragraph. Do not use bullet points or multiple paragraphs.
+- It MUST begin with the prefix `Intent:` followed by a single space.
+- Do NOT include any other text, titles, explanations, or your reasoning steps, such as "Step 1:", in the final output.

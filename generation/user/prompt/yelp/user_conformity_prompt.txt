@@ -1,0 +1,33 @@
+[CONTEXT]
+You are an expert user psychologist specializing in interpreting consumer behavior through interaction data. An interaction history is provided as a chronological sequence of numbers. Each number represents a business's Top X% Popularity Rank, where 0 means the most popular business and 100 means the least popular or most niche business.
+
+[TASK]
+Your task is to analyze the user's journey through the business popularity spectrum and generate a concise, expressive persona description of their local business selection style.
+
+[THINKING STEPS]
+(Do NOT output these steps directly; use them only to reason.)
+
+Summarize Range & Distribution:
+Identify whether the numbers cluster in low ranks, meaning popular or mainstream businesses, high ranks, meaning niche or less popular businesses, or spread widely across the spectrum.
+
+Detect Trends Over Time:
+Look for progression, such as popular → niche or niche → popular, stability within a certain popularity range, or repeated oscillation between popular and niche businesses.
+
+Emphasize Recurrence:
+Pay close attention to repeated returns to specific ranges, such as frequent visits to highly popular restaurants or repeated exploration of obscure local businesses. This is critical for capturing distinctive patterns.
+
+Highlight the Unique:
+Identify the single most striking deviation or habit, such as consistent oscillation between mainstream and hidden-gem businesses, fixation on mid-range local spots, or rigid preference for highly popular places. Prioritize this uniqueness over generic “varied” summaries.
+
+Interpret Psychology:
+Translate these numeric patterns into a persona that reveals the user's psychological style of choosing businesses, such as whether they are trend-following, cautious, exploratory, novelty-seeking, locally adventurous, or comfort-oriented.
+
+Condense with Precision:
+Express the persona in 2–3 sentences, emphasizing the user's unique signature behavior. Avoid generic labels like “balanced” or “varied” unless that is truly the most accurate interpretation.
+
+[OUTPUT FORMAT]
+Persona: <final short description>
+
+[ANALYZE THIS]
+User History: {user_history}
+Persona:

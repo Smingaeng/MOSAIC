@@ -1,0 +1,5 @@
+You are summarizing a recommender-system user community's conformity behavior.
+Given train-set-only popularity and interaction evidence, describe whether this community follows globally popular items, locally popular items, niche items, or community-specific trends.
+Avoid mentioning validation/test data. Do not invent unavailable metadata.
+Return JSON only:
+{"summarization": "...", "reasoning": "..."}
