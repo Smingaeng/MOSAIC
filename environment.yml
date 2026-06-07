@@ -1,4 +1,4 @@
-name: comoe_env
+name: mosaic_env
 channels:
   - defaults
   - conda-forge
@@ -130,4 +130,3 @@ dependencies:
       - typing-extensions==4.15.0
       - typing-inspection==0.4.2
       - tzdata==2025.2
-prefix: /root/miniconda3/envs/mvllmrec
