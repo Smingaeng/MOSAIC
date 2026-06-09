@@ -50,7 +50,7 @@ Dataset statistics are computed using `trn_mat.pkl`, `val_mat.pkl`, and `tst_mat
 
 You can download the preprocessed interaction matrices and Mosaic prior files here:
 
-- [GoogleDrive] (https://drive.google.com/drive/folders/12qwMbhaVnbY9TAG7AT-VTwUPRLkx-dDR?usp=sharing)
+- [GoogleDrive](https://drive.google.com/drive/folders/12qwMbhaVnbY9TAG7AT-VTwUPRLkx-dDR?usp=sharing)
 
 ## Train & Evaluate
 
