@@ -40,11 +40,11 @@ We use the following datasets:
 
 Dataset statistics are computed using `trn_mat.pkl`, `val_mat.pkl`, and `tst_mat.pkl`.
 
-| Dataset | Users | Items | Interactions | Density |
-|---|---:|---:|---:|---:|
-| Yelp | 11,091 | 11,010 | 277,535 | 0.0023 |
-| Amazon-Book | 11,000 | 9,332 | 200,860 | 0.0020 |
-| Amazon-Movie | 7,351 | 7,002 | 95,174 | 0.0018 |
+| Dataset | Users | Items | Interactions | Density | Community |
+|---|---:|---:|---:|---:|---:|
+| Yelp | 11,091 | 11,010 | 277,535 | 0.0023 | 13 |
+| Amazon-Book | 11,000 | 9,332 | 200,860 | 0.0020 | 50 |
+| Amazon-Movie | 7,351 | 7,002 | 95,174 | 0.0018 | 50 |
 
 ## Dataset Download
 
